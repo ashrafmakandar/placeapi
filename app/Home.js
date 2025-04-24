@@ -66,12 +66,12 @@ const Home=() =>{
   };
 
   return (
-    <SafeAreaView style={{  }}>
+    <SafeAreaView >
       <View style={{
-        marginHorizontal:"2%",backgroundColor:"#888"
+        marginHorizontal:"2%",backgroundColor:"#fff"
       }}>
          <GooglePlacesAutocomplete
-        placeholder="Search places here..."
+        placeholder="Search places here"
         fetchDetails={true}
         onPress={handlePlaceSelect}
         query={{
@@ -163,9 +163,7 @@ const styles = StyleSheet.create({
   listView: {
     backgroundColor: 'white',
   },
-  map: {
 
-  },
   selectedPlace:{
       
     
